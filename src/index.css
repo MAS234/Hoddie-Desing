@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+@tailwind base;
+@tailwind utilities;
+@tailwind variants;
+
+.portada{
+    background-image: url(assets/exclusivosPortada.png); 
+
+    background-repeat: no-repeat;
+    background-position: center;
+       
+}
+
+.portadaBuzo{
+    background-image: url(assets/buzoPortada.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portadaCamperas{
+    background-image: url(assets/camperaPortada.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portadaAccesorios{
+    background-image: url(assets/anteojosPortada.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.swiper {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .swiper-slide img {
+        width: 100%;
+      }
+  }
+  
+
+
+
