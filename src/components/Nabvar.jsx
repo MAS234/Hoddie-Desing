@@ -41,7 +41,7 @@ export default function Nabvar() {
         }
 
         <Link to={"/carrito"}>
-        <img src={Carrito} alt="carrito" className="w-12 h-12 hover:bg-white p-1 rounded-lg  cursor-pointer duration-200 md:ml-40" />
+        <img src={Carrito} alt="carrito" className="w-12 h-12 hover:bg-white p-1 rounded-lg  cursor-pointer duration-200 md:ml-52" />
         </Link>
 
        </ul>
