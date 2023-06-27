@@ -5,11 +5,11 @@ export default function Footer() {
   return (
     <>
 
-        <footer className=" bg-black p-20">
+        <footer className=" bg-black md:p-20 p-10">
 
-        <div className="flex  justify-around items-center gap-10 text-sm md:gap-5 md:text-base text-white">
+        <div className="grid grid-cols-4 center gap-9   text-sm md:gap-5 md:text-base text-white">
         <div>
-            <img src={Logo} alt="logo" className="h-24 w-24"/>
+            <img src={Logo} alt="logo" className="md:h-24 md:w-24 w-16 h-16"/>
         </div>
 
         <div>
