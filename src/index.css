@@ -45,6 +45,23 @@ body{
   background-size: 100% 120%;
 }
 
+.portadaTiendaCampera{
+  background-image: url(assets/portadaCamperaGrande.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 120%;
+}
+
+.portadaTinedaExclusivos{
+  background-image: url(assets/portadaExclusivosGrande.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 120%;
+}
+
+
 
 .swiper {
     width: 100%;

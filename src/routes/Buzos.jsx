@@ -9,15 +9,15 @@ export default function Buzos() {
     <div className="bg-black">
       <Nabvar/>
 
-      <div className="md:w-[100%] md:h-[100vh] w-full h-[30vh] portadaTiendaBuzo flex justify-end items-center flex-col">
+      <div className="md:w-[100%] md:h-[100vh] w-full h-[30vh] portadaTiendaBuzo flex justify-center items-center flex-col">
         <div className="p-10">
         <p className="text-white text-5xl font-bold">BUZOS</p>
         <p className="text-white text-2xl text-center">HODDIES</p>
         </div>
       </div>
 
-  
-      <div className="grid md:grid-cols-3 grid-cols-1 center gap-10 ">
+     
+        <div className="grid md:grid-cols-3 grid-cols-1 center gap-10 ">
         {BuzoVenta.map((buzo) => (
           <div key={buzo.id} className="m-5">
             <div className="bg-white rounded-xl m-3">
@@ -31,11 +31,11 @@ export default function Buzos() {
 
                 <div>
 
-                  <p className="text-center text-sm font-bold">Aldogon 100%</p>
+                  <p className="text-center text-sm font-bold">Algodon 100%</p>
 
                   <div className="flex justify-center items-center gap-3 m-2 ext-sm">
                     <p>Colores:</p> 
-                    <div className="flex justify-center items-center t">
+                    <div className="flex justify-center items-center ">
                       <Icon icon="material-symbols:circle" color="red" />
                       <Icon icon="material-symbols:circle" color="#f1a014"/>
                       <Icon icon="material-symbols:circle" />
@@ -53,7 +53,9 @@ export default function Buzos() {
             </div>
           </div>
         ))}
+ 
       </div>
+
 
       <Footer/>
 
