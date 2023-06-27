@@ -37,6 +37,14 @@ body{
     background-position: center;
 }
 
+.portadaTiendaBuzo{
+  background-image: url(assets/portadaBuzosGrande.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 120%;
+}
+
 
 .swiper {
     width: 100%;
@@ -58,9 +66,17 @@ body{
     object-fit: cover;
   }
 
+  .center{
+    justify-items: center;
+  }
+
   @media (max-width: 768px) {
     .swiper-slide img {
         width: 100%;
+      }
+
+      .portadaTiendaBuzo{
+        background-size: 100%;
       }
   }
   

@@ -24,10 +24,10 @@ export default function App() {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={buzo1} alt="buzo1" /></SwiperSlide>
-        <SwiperSlide><img src={buzo2} alt="buzo1" /></SwiperSlide>
-        <SwiperSlide><img src={buzo3} alt="buzo1" /></SwiperSlide>
-        <SwiperSlide><img src={buzo4} alt="buzo1" /></SwiperSlide>
+        <SwiperSlide><img src={buzo1} alt="buzo1" className="rounded-lg h-52 w-52" /></SwiperSlide>
+        <SwiperSlide><img src={buzo2} alt="buzo1" className="rounded-lg h-52 w-52" /></SwiperSlide>
+        <SwiperSlide><img src={buzo3} alt="buzo1" className="rounded-lg h-52 w-52" /></SwiperSlide>
+        <SwiperSlide><img src={buzo4} alt="buzo1" className="rounded-lg h-52 w-52" /></SwiperSlide>
 
       </Swiper>
     </>
