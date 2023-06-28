@@ -7,7 +7,8 @@ export default function Footer() {
 
         <footer className=" bg-black md:p-20 p-10">
 
-        <div className="grid grid-cols-4 center gap-9   text-sm md:gap-5 md:text-base text-white">
+        <div className="grid grid-cols-3 center gap-9   text-sm md:gap-5 md:text-base text-white">
+
         <div>
             <img src={Logo} alt="logo" className="md:h-24 md:w-24 w-16 h-16"/>
         </div>
@@ -23,11 +24,7 @@ export default function Footer() {
             <p>Sobre Hoddie Desing</p>
         </div>
 
-        <div>
-            <p>Mobile</p>
-            <p>Play Store</p>
-            <p>Ios</p>
-        </div>
+
         </div>
 
         <div className="flex justify-center items-center mt-20 gap-10">
