@@ -13,6 +13,7 @@ body{
 
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
        
 }
 
@@ -21,6 +22,7 @@ body{
 
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 
 .portadaCamperas{
@@ -28,13 +30,15 @@ body{
 
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 
 .portadaAccesorios{
-    background-image: url(assets/anteojosPortada.png);
+    background-image: url(assets/anteojosPortada.jpg);
 
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 
 .portadaTiendaBuzo{
@@ -95,6 +99,28 @@ body{
       .portadaTiendaBuzo{
         background-size: 100%;
       }
+
+      .portada{
+        background-size: cover;
+           
+    }
+
+    .portadaBuzo{
+
+      background-size: cover;
+  }
+
+  .portadaCamperas{
+
+    background-size: cover;
+}
+
+.portadaAccesorios{
+
+  background-size: cover;
+}
+
+      
   }
   
 

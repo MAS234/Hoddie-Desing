@@ -1,6 +1,6 @@
 //PORTADA
 
-import anteojosPortada from "./anteojosPortada.png";
+import anteojosPortada from "./anteojosPortada.jpg";
 import camperaPortada from "./camperaPortada.png";
 import BuzoPortada from "./buzoPortada.png";
 import exclusivosPortada from "./exclusivosPortada.png";

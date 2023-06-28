@@ -24,7 +24,7 @@ export default function Inicio() {
         <div className="grid md:grid-cols-2">
           <Link to={"/buzos"}>
           {/* DIV DE PORTADA, ESTE CONTIENE LA IMAGEN  */}
-          <div className="portadaBuzo h-[80vh] md:h-[100vh] w-full">
+          <div className="portadaBuzo h-[100%] md:h-[100vh] w-full">
             {/* DIV DE OPACIDAD  */}
             <div className="bg-black h-[80vh]  md:h-[100vh] w-full opacity-70 flex justify-center items-center flex-col hover:opacity-40 duration-300">
             <p className="text-white text-center font-semibold  text-2xl ">BUZOS</p>
@@ -36,7 +36,7 @@ export default function Inicio() {
           <div className="flex flex-col">
 
             {/* CAMPERAS  */}
-            <div className="portadaCamperas h-[40vh] md:h-[100%] w-full">
+            <div className="portadaCamperas h-[40vh] md:h-[86%] w-full">
             <Link to={"/camperas"}>
             <div className="bg-black h-[40vh] md:h-[100%] w-full opacity-70 flex justify-center items-center flex-col hover:opacity-40 duration-300">
               <p className="text-white text-center font-semibold  text-2xl ">CAMPERAS</p>
