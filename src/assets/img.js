@@ -42,6 +42,18 @@ import icono2 from "./exclusivosModelo/icono2.png"
 import icono3 from "./exclusivosModelo/icono3.png"
 import icono4 from "./exclusivosModelo/icono4.png"
 
+//ACCESORIOS 
+import accesorio1 from "./accesoriosModelos/accesorios1.jpg"
+import accesorio2 from "./accesoriosModelos/accesorios2.png"
+import accesorio3 from "./accesoriosModelos/accesorios3.jpg"
+import accesorio4 from "./accesoriosModelos/accesorios4.png"
+import accesorio5 from "./accesoriosModelos/accesorios5.jpg"
+import accesorio6 from "./accesoriosModelos/accesorios6.png"
+import accesorio7 from "./accesoriosModelos/accesorios7.jpg"
+import accesorio8 from "./accesoriosModelos/accesorios8.jpg"
+import accesorio9 from "./accesoriosModelos/accesorios9.jpg"
+
+
 
 //LOGO
 import Logo from "./logo.png"
@@ -82,5 +94,14 @@ export{
     icono1,
     icono4,
     icono2,
-    icono3
+    icono3,
+    accesorio1,
+    accesorio2,
+    accesorio3,
+    accesorio4,
+    accesorio5,
+    accesorio6,
+    accesorio7,
+    accesorio8,
+    accesorio9
 }

@@ -8,15 +8,14 @@ export default function Exclusivos() {
     <div className="bg-black">
       <Nabvar />
 
-      <div className="md:w-[100%] md:h-[100vh] w-full h-[30vh] portadaTinedaExclusivos flex justify-center items-center flex-col">
+      <div className="md:w-[100%] md:h-[100vh] w-full h-[30vh] portadaTinedaExclusivos flex justify-center items-center flex-col" data-aos="zoom-in">
         <div className="p-10">
           <p className="text-white md:text-5xl text-lg font-bold text-center">
             DISEÑOS EXCLUSIVOS
           </p>
           <p className="text-white md:m-10 m-2 md:text-xl text-sm text-center">
             Descubre nuestra exclusiva colección de buzos de alta calidad con
-            diseños modernos. Cada pieza ha sido cuidadosamente confeccionada
-            con materiales premium para brindarte la máxima comodidad y
+            diseños modernos.Materiales premium para brindarte la máxima comodidad y
             durabilidad.{" "}
           </p>
         </div>
@@ -27,13 +26,15 @@ export default function Exclusivos() {
           {ventaExclusivos.map((exclusivo) => (
             <div
               key={exclusivo.id}
-              className="bg-white  rounded-md grid grid-cols-3 md:w-[60%] w-[90%] m-12"
+              className="bg-white  rounded-md grid grid-cols-3 md:w-[60%] w-[90%] m-12 "
+              data-aos="fade-up"
+              
             >
               <div>
                 <img
                   src={exclusivo.imagen}
                   alt={exclusivo.nombre}
-                  className="md:h-72  md:w-60 h-44  rounded-md"
+                  className="md:h-72  md:w-60 h-48  rounded-md"
                 />
               </div>
 

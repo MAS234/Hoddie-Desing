@@ -9,7 +9,7 @@ export default function Camperas() {
 
       <Nabvar/>
 
-      <div className="md:w-[100%] md:h-[100vh] w-full h-[30vh] portadaTiendaCampera flex justify-center items-center flex-col">
+      <div className="md:w-[100%] md:h-[100vh] w-full h-[30vh] portadaTiendaCampera flex justify-center items-center flex-col" data-aos="zoom-in">
         <div className="p-10">
         <p className="text-white text-5xl font-bold">CAMPERAS</p>
         <p className="text-white text-2xl text-center">JACKET</p>
@@ -18,8 +18,8 @@ export default function Camperas() {
 
       <div className="grid md:grid-cols-3 grid-cols-1 center gap-10 ">
         {camperaVenta.map((campera) => (
-          <div key={campera.id} className="m-5">
-            <div className="bg-white rounded-xl m-3">
+          <div key={campera.id} className="m-5 hover:translate-y-[-10px] duration-200">
+            <div className="bg-white rounded-xl m-3" data-aos="fade-up"> 
               
               <div className=" rounded-xl">
                 <img src={campera.imagen} alt="campera" className=" rounded-xl w-60 h-60"/>

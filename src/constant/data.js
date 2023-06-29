@@ -29,7 +29,16 @@ import{
     icono1,
     icono4,
     icono2,
-    icono3
+    icono3,
+    accesorio1,
+    accesorio2,
+    accesorio3,
+    accesorio4,
+    accesorio5,
+    accesorio6,
+    accesorio7,
+    accesorio8,
+    accesorio9
 
     // IMAGENES DE BUZOS PAGINA 
 
@@ -75,7 +84,7 @@ const BuzoVenta = [
         id:5,
         nombre: "FrostBite",
         descripcion: "Sus buzos son cálidos, transpirables y resistentes al olor, perfectos para actividades al aire libre en condiciones cambiantes",
-        precio: "$35.000",
+        precio: "$40.000",
         imagen: buzoModelo5
         
     },
@@ -169,6 +178,63 @@ const ventaExclusivos = [
 
 ]
 
+const ventaAccesorios = [
+    {
+        id:1,
+        imagen: accesorio1,
+        nombre: "Chronotech",
+        precio: "$50.000",
+    },
+    {
+        id:2,
+        imagen: accesorio2,
+        nombre: "StellarLink",
+        precio: "$50.000",
+    },
+    {
+        id:3,
+        imagen: accesorio3,
+        nombre: "Luminaire",
+        precio: "$50.000",
+    },
+    {
+        id:4,
+        imagen: accesorio4,
+        nombre: "NexusTime",
+        precio: "$50.000",
+    },
+    {
+        id:5,
+        imagen: accesorio5,
+        nombre: "VeloceChain",
+        precio: "$50.000",
+    },
+    {
+        id:6,
+        imagen: accesorio6,
+        nombre: "NovaGadget",
+        precio: "$50.000",
+    },
+    {
+        id:7,
+        imagen: accesorio7,
+        nombre: "EvolveX",
+        precio: "$50.000",
+    },
+    {
+        id:8,
+        imagen: accesorio8,
+        nombre: "QuantumKey",
+        precio: "$50.000",
+    },
+    {
+        id:9,
+        imagen: accesorio9,
+        nombre: "VortexTime",
+        precio: "$50.000",
+    },
+]
+
 export{
     anteojosPortada,
     camperaPortada,
@@ -183,5 +249,6 @@ export{
     BuzoVenta,
     buzoPortadaGrande,
     camperaVenta,
-    ventaExclusivos
+    ventaExclusivos,
+    ventaAccesorios
 }

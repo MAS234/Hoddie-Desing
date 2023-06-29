@@ -65,6 +65,14 @@ body{
   background-size: 100% 120%;
 }
 
+.portadaTinedaAccesorio{
+  background-image: url(assets/portadaAccesoriosGrande.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 120%;
+}
+
 
 
 .swiper {
@@ -116,6 +124,11 @@ body{
 }
 
 .portadaAccesorios{
+
+  background-size: cover;
+}
+
+.portadaTinedaAccesorio{
 
   background-size: cover;
 }
