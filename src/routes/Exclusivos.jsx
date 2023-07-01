@@ -2,8 +2,13 @@ import Nabvar from "../components/Nabvar";
 import { ventaExclusivos } from "../constant/data";
 import { Icon } from "@iconify/react";
 import Footer from "../components/Footer";
+import UseCarrito from "../hooks/UseCarrito";
+
 
 export default function Exclusivos() {
+
+  const {handleProducto} = UseCarrito();
+
   return (
     <div className="bg-black">
       <Nabvar />
@@ -48,7 +53,10 @@ export default function Exclusivos() {
                   className="md:h-40 md:w-44 h-20 w-20"
                 />
                 <div>
-                  <button className="text-white bg-red-500 p-1 rounded-sm hover:bg-red-600 duration-200">
+                  <button 
+                  className="text-white bg-red-500 p-1 rounded-sm hover:bg-red-600 duration-200"
+                  onClick={() => handleProducto(exclusivo)}
+                  >
                     AGREGAR
                   </button>
                 </div>

@@ -3,7 +3,12 @@ import { camperaVenta } from '../constant/data';
 import Nabvar from "../components/Nabvar"
 import Footer from '../components/Footer';
 
+import UseCarrito from "../hooks/UseCarrito"
+
 export default function Camperas() {
+
+  const {handleProducto} = UseCarrito();
+
   return (
     <div className="bg-black">
 
@@ -13,6 +18,7 @@ export default function Camperas() {
         <div className="p-10">
         <p className="text-white text-5xl font-bold">CAMPERAS</p>
         <p className="text-white text-2xl text-center">JACKET</p>
+        
         </div>
       </div>
 
@@ -44,7 +50,7 @@ export default function Camperas() {
                   <p className="text-center font-bold">{campera.precio}</p>
 
                   <div className="flex justify-center items-center">
-                    <button className="bg-white border text-black hover:text-white hover:bg-black duration-200 p-2 m-3 ">Agregar</button>
+                    <button className="bg-white border text-black hover:text-white hover:bg-black duration-200 p-2 m-3" onClick={() => handleProducto(campera)}>Agregar</button>
                   </div>
 
                 </div>

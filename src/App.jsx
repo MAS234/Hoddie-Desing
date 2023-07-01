@@ -1,4 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+
+// CONTEXT
+import { CarritoProvider } from './Context/CarritoProvider'
 
 //Importaciones
 import Exclusivos from './routes/Exclusivos'
@@ -41,9 +46,20 @@ function App() {
 
   return (
     <>
+    <CarritoProvider>
     <RouterProvider router={router}/>
+    </CarritoProvider>
+    <ToastContainer />
     </>
   )
 }
 
 export default App
+
+// PEDIENTE:
+// QUE SE AGREGUEN TODOS LOS PRODUCTOS AL CARRITO, FALTA ACCESORIOS.
+// CAMBIAR LOS IDS POR QUE SE ROMPEN.
+// AGREGAR FUNCIONALDIAD A EDITAR 
+// TERMINAR EL RESUMEN DE COMPRA 
+// FINALIZAR LA COMPRA 
+

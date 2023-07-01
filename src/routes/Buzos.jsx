@@ -2,8 +2,14 @@ import Nabvar from "../components/Nabvar"
 import { BuzoVenta } from "../constant/data"
 import { Icon } from '@iconify/react';
 import Footer from "../components/Footer";
+import UseCarrito from "../hooks/UseCarrito";
+
+
 
 export default function Buzos() {
+
+  const {handleProducto} = UseCarrito();
+  
   return (
     <>
     <div className="bg-black">
@@ -45,7 +51,10 @@ export default function Buzos() {
                   <p className="text-center font-bold">{buzo.precio}</p>
 
                   <div className="flex justify-center items-center">
-                    <button className="bg-white border text-black hover:text-white hover:bg-black duration-200 p-2 m-3 ">Agregar</button>
+                    <button 
+                    className="bg-white border text-black hover:text-white hover:bg-black duration-200 p-2 m-3 "
+                    onClick={() => handleProducto(buzo)}
+                    >Agregar</button>
                   </div>
 
                 </div>
