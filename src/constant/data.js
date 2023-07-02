@@ -50,7 +50,7 @@ const BuzoVenta = [
         id:1,
         nombre: "EverWarm",
         descripcion: " Buzos están fabricados con materiales duraderos, ofreciendo comodidad y protección en climas fríos.",
-        precio: "$20.000",
+        precio: "20000",
         imagen: buzoModelo1,
         
         
@@ -59,24 +59,24 @@ const BuzoVenta = [
     {
         id:2,
         nombre: "AlpineShield",
-        descripcion: " Buzos son famosos por su calidez, resistencia y diseño funcional.",
-        precio: "$35.000",
+        descripcion: " Buzos son famosos por su calidez, resistencia y diseño funcional",
+        precio: "35000",
         imagen: buzoModelo2
         
     },
     {
         id:3,
         nombre: "ArcticFlex",
-        descripcion: " Están diseñados con atención al detalle y ofrecen una combinación perfecta de rendimiento, durabilidad y estilo.",
-        precio: "$35.000",
+        descripcion: " Están diseñados con atención al detalle y ofrecen una combinación perfecta de rendimiento, durabilidad y estilo",
+        precio: "35000",
         imagen: buzoModelo3
         
     },
     {
         id:4,
         nombre: "StormGuard",
-        descripcion: "Sus buzos son versátiles y ofrecen una protección eficaz contra el frío, al tiempo que garantizan comodidad y movilidad.",
-        precio: "$35.000",
+        descripcion: "Sus buzos son versátiles y ofrecen una protección eficaz contra el frío, al tiempo que garantizan comodidad y movilidad",
+        precio: "35000",
         imagen: buzoModelo4
         
     },
@@ -84,7 +84,7 @@ const BuzoVenta = [
         id:5,
         nombre: "FrostBite",
         descripcion: "Sus buzos son cálidos, transpirables y resistentes al olor, perfectos para actividades al aire libre en condiciones cambiantes",
-        precio: "$40.000",
+        precio: "40000",
         imagen: buzoModelo5
         
     },
@@ -92,7 +92,7 @@ const BuzoVenta = [
         id:6,
         nombre: "CozyPeak",
         descripcion: "buzos que ofrecen una excelente regulación térmica, comodidad y resistencia al olor, ideales para aventuras al aire libre en climas fríos",
-        precio: "$35.000",
+        precio: "35000",
         imagen: buzoModelo6
         
     },
@@ -103,44 +103,44 @@ const BuzoVenta = [
 
 const camperaVenta = [
     {
-        id:1,
+        id:7,
         nombre:"FrostGuard",
-        precio: "$40000",
+        precio: "40000",
         imagen: camperaModelo
         
     },
     {
-        id:2,
+        id:8,
         nombre:"GlacierPeak",
-        precio: "$45000",
+        precio: "45000",
         imagen: camperaModelo2
         
     },
     {
-        id:3,
+        id:9,
         nombre:"EverestEdge",
-        precio: "$30000",
+        precio: "30000",
         imagen: camperaModelo3
         
     },
     {
-        id:4,
+        id:10,
         nombre:"PolarExpedition",
-        precio: "$35000",
+        precio: "35000",
         imagen: camperaModelo4
         
     },
     {
-        id:5,
+        id:11,
         nombre:"SummitPro",
-        precio: "$60000",
+        precio: "60000",
         imagen: camperaModelo5
         
     },
     {
-        id:6,
+        id:12,
         nombre:"ArcticBreeze",
-        precio: "$80000",
+        precio: "80000",
         imagen: camperaModelo6
         
     },
@@ -148,31 +148,31 @@ const camperaVenta = [
 
 const ventaExclusivos = [
     {
-        id:1,
+        id:13,
         imagen: exclusivo1,
         nombre: "LuxeKnit",
-        precio: "$50.000",
+        precio: "50000",
         icono: icono1
     },
     {
-        id:2,
+        id:14,
         imagen: exclusivo2,
         nombre: "EliteBlend",
-        precio: "$50.000",
+        precio: "50000",
         icono: icono3
     },
     {
-        id:3,
+        id:15,
         imagen: exclusivo3,
         nombre: "SuperiorCozy",
-        precio: "$50.000",
+        precio: "50000",
         icono: icono4
     },
     {
-        id:4,
+        id:16,
         imagen: exclusivo4,
         nombre: "DeluxeWool",
-        precio: "$50.000",
+        precio: "50000",
         icono: icono2
     }
 
@@ -180,58 +180,58 @@ const ventaExclusivos = [
 
 const ventaAccesorios = [
     {
-        id:1,
+        id:17,
         imagen: accesorio1,
         nombre: "Chronotech",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:2,
+        id:18,
         imagen: accesorio2,
         nombre: "StellarLink",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:3,
+        id:19,
         imagen: accesorio3,
         nombre: "Luminaire",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:4,
+        id:20,
         imagen: accesorio4,
         nombre: "NexusTime",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:5,
+        id:21,
         imagen: accesorio5,
         nombre: "VeloceChain",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:6,
+        id:22,
         imagen: accesorio6,
         nombre: "NovaGadget",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:7,
+        id:23,
         imagen: accesorio7,
         nombre: "EvolveX",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:8,
+        id:24,
         imagen: accesorio8,
         nombre: "QuantumKey",
-        precio: "$50.000",
+        precio: "50000",
     },
     {
-        id:9,
+        id:25,
         imagen: accesorio9,
         nombre: "VortexTime",
-        precio: "$50.000",
+        precio: "50000",
     },
 ]
 

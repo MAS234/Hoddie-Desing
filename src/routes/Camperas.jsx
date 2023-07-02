@@ -28,7 +28,7 @@ export default function Camperas() {
             <div className="bg-white rounded-xl m-3" data-aos="fade-up"> 
               
               <div className=" rounded-xl">
-                <img src={campera.imagen} alt="campera" className=" rounded-xl w-60 h-60"/>
+                <img src={campera.imagen} alt="campera" className=" esquinasRedondasImg w-60 h-60"/>
               </div>
            
               <div>

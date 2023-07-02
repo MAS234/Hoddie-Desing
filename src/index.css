@@ -13,7 +13,7 @@ body{
 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
        
 }
 
@@ -22,7 +22,7 @@ body{
 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .portadaCamperas{
@@ -30,7 +30,7 @@ body{
 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .portadaAccesorios{
@@ -38,7 +38,7 @@ body{
 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .portadaTiendaBuzo{
@@ -46,7 +46,7 @@ body{
 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 120%;
+  background-size: 100%;
 }
 
 .portadaTiendaCampera{
@@ -101,6 +101,10 @@ body{
 
   .redondear{
     border-radius: 10px 0px 0px 10px;
+  }
+
+  .esquinasRedondasImg{
+    border-radius: 10px 10px 0px 0px;
   }
 
   @media (max-width: 768px) {

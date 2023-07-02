@@ -29,7 +29,7 @@ export default function Buzos() {
             <div className="bg-white rounded-xl m-3" data-aos="fade-up">
               
               <div className=" rounded-xl">
-                <img src={buzo.imagen} alt="buzo" className=" rounded-xl w-60 h-72"/>
+                <img src={buzo.imagen} alt="buzo" className=" esquinasRedondasImg w-60 h-72"/>
               </div>
            
               <div>

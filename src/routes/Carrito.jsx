@@ -4,14 +4,11 @@ import { Icon } from "@iconify/react";
 import Footer from "../components/Footer"
 
 export default function Carrito() {
-  const { carrito, eliminarProducto } = UseCarrito();
 
-  const handleEliminar = (id) => {
-    eliminarProducto(id);
-  };
+  const { carrito, calcularSubtotal, calcularTotal, handleEliminar, handleRestarCantidad, handleSumarCantidad  } = UseCarrito();
 
   return (
-    <div className="bg-black">
+    <div className="bg-black h-full">
       <Nabvar />
 
       <h1 className="text-white text-center font-bold text-xl">
@@ -56,12 +53,18 @@ export default function Carrito() {
                     </p>
 
                     <div className="flex  justify-center items-center">
-                      <div className="flex text-white bg-black justify-center items-center w-20 rounded-lg gap-4">
-                        <button className="hover:text-red-500 duration-200">
+                      <div className="flex text-white bg-black p-1  justify-center items-center w-20 rounded-lg gap-4">
+                        <button 
+                        className="hover:bg-red-500 duration-200 bg-black p-1 rounded-sm"
+                        onClick={() => handleRestarCantidad(producto)}
+                        >
                           -
                         </button>
-                        2
-                        <button className="hover:text-green-500 duration-200">
+                        <p>{producto.cantidad}</p>
+                        <button 
+                        className="hover:bg-green-500 duration-200 bg-black p-1 rounded-sm"
+                        onClick={() => handleSumarCantidad(producto)}
+                        >
                           +
                         </button>
                       </div>
@@ -69,7 +72,7 @@ export default function Carrito() {
                   </div>
 
                   <div className="border-l-2 border-black flex justify-center items-center font-bold text-center text-xl">
-                    <p>{producto.precio}</p>
+                    <p>{`$ ${calcularSubtotal(producto)}`}</p>
                   </div>
                 </div>
               </div>
@@ -77,8 +80,8 @@ export default function Carrito() {
             </div>
 
             <div className="flex justify-start sticky">
-              <div className="w-96 bg-white h-96 m-10 rounded-xl">
-
+              <div className="w-96 flex justify-center items-center bg-white h-96 m-10 rounded-xl font-bold text-2xl">
+                {`$ ${calcularTotal()}`}
               </div>
             </div>
 

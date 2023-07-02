@@ -1,11 +1,15 @@
 import Nabvar from "../components/Nabvar"
 import Footer from "../components/Footer"
 import { ventaAccesorios } from "../constant/data"
+import UseCarrito from "../hooks/UseCarrito";
 
 
 
 
 export default function Accesorios() {
+
+  const {handleProducto} = UseCarrito();
+
   return (
     <>
 
@@ -26,7 +30,7 @@ export default function Accesorios() {
             <div className="bg-white rounded-xl m-3" data-aos="fade-up">
               
               <div className=" rounded-xl">
-                <img src={accesorio.imagen} alt="accesorio" className=" rounded-xl w-60 h-72"/>
+                <img src={accesorio.imagen} alt="accesorio" className=" esquinasRedondasImg w-60 h-72"/>
               </div>
            
               <div className="flex flex-col gap-5">
@@ -40,7 +44,10 @@ export default function Accesorios() {
                   <p className="text-center font-bold">{accesorio.precio}</p>
 
                   <div className="flex justify-center items-center">
-                    <button className="bg-white border text-black hover:text-white hover:bg-black duration-200 p-2 m-3 ">Agregar</button>
+                    <button 
+                    className="bg-white border text-black hover:text-white hover:bg-black duration-200 p-2 m-3 " 
+                    onClick={() => handleProducto(accesorio)}
+                    >Agregar</button>
                   </div>
 
                 </div>
