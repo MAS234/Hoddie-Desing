@@ -22,7 +22,7 @@ export default function Carrito() {
             AUN NO HAY PRODUCTOS
           </p>
         ) : (
-          <div className="flex ms:flex-col  justify-center items-center" data-aos="fade-up">
+          <div className="flex flex-col md:flex-row justify-center items-center" data-aos="fade-up">
             <div>
             {carrito.map((producto) => (
               <div key={producto.id}>
