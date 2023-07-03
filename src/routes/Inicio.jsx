@@ -5,13 +5,13 @@ import Footer from "../components/Footer"
 
 export default function Inicio() {
   return (
-    <>
+    <div className="bg-black">
     <Nabvar/>
 
         {/* EXCLUSIVOS  */}
         <Link to={"/exclusivos"}>
           {/* DIV DE PORTADA, ESTE CONTIENE LA IMAGEN  */}
-          <div className=" h-96 w-full portada">
+          <div className=" h-96 w-full portada" data-aos="zoom-in">
             {/* DIV DE OPACIDAD  */}
               <div className="bg-black h-96 md:h-[100%] w-full opacity-70 flex justify-center items-center flex-col hover:opacity-40 duration-300">
                <p className="text-white text-center font-semibold  text-2xl ">DISEÑOS EXCLUSIVOS</p>
@@ -21,7 +21,7 @@ export default function Inicio() {
         </Link>
         
         {/* BUZO  */}
-        <div className="grid md:grid-cols-2">
+        <div className="grid md:grid-cols-2" data-aos="fade-up">
           <Link to={"/buzos"}>
           {/* DIV DE PORTADA, ESTE CONTIENE LA IMAGEN  */}
           <div className="portadaBuzo h-[100%] md:h-[100vh] w-full">
@@ -69,6 +69,6 @@ export default function Inicio() {
         </section>
 
         <Footer/>
-    </>
+    </div>
   )
 }
