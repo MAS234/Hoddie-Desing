@@ -3,6 +3,7 @@ import UseCarrito from "../hooks/UseCarrito";
 import { Icon } from "@iconify/react";
 import Footer from "../components/Footer"
 import { Logo } from "../assets/img";
+import { Link } from "react-router-dom";
 
 export default function Carrito() {
 
@@ -29,7 +30,7 @@ export default function Carrito() {
                 <div className="bg-white grid grid-cols-3 md:m-10 m-5 rounded-xl">
                   <div className="flex">
                     <button
-                      className="bg-red-500 hover:bg-red-800 md:w-20 w-8 hover:w-10  duration-200 cursor-pointer flex justify-center items-center redondear"
+                      className="bg-red-500 hover:bg-red-800 md:w-20 w-10 duration-200 cursor-pointer flex justify-center items-center redondear"
                       onClick={() => handleEliminar(producto.id)}
                     >
                       <Icon
@@ -81,7 +82,7 @@ export default function Carrito() {
             </div>
 
             <div className="flex flex-col justify-start items-center">
-              <div className="md:w-96 w-72 flex flex-col justify-around items-center bg-white h-96 m-10 rounded-lg">
+              <div className="md:w-96 w-full flex flex-col justify-around items-center bg-white h-96 m-10 rounded-lg">
 
                 <div >
                   <p  className="font-bold text-2xl ">COMPRA</p>
@@ -97,7 +98,9 @@ export default function Carrito() {
                 </div>
               </div>
 
+              <Link to={"/finalizar"}>
               <button className="md:w-96 w-72   text-center text-white bg-green-400 p-2 rounded-md text-2xl font-bold hover:bg-green-600 duration-200">FINALIZAR COMPRA</button>
+              </Link>
             </div>
 
           </div>

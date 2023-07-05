@@ -61,6 +61,14 @@ import Logo from "./logo.png"
 //CARRITO
 import Carrito from "./carrito.png"
 
+//MASTER
+import Master from "./master.png"
+import Visa from "./pagos/visa.png"
+import Cabal from "./pagos/Cabal.png"
+import America from "./pagos/americaExpress.png"
+import MercadoPago from "./pagos/mercado pago.png"
+import MercadoCredito from "./pagos/mercado_credito.png"
+
 export{
     anteojosPortada,
     camperaPortada,
@@ -103,5 +111,11 @@ export{
     accesorio6,
     accesorio7,
     accesorio8,
-    accesorio9
+    accesorio9,
+    Master,
+    Visa,
+    MercadoCredito,
+    MercadoPago,
+    America,
+    Cabal
 }

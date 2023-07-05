@@ -38,7 +38,13 @@ import{
     accesorio6,
     accesorio7,
     accesorio8,
-    accesorio9
+    accesorio9,
+    Master,
+    Visa,
+    MercadoCredito,
+    MercadoPago,
+    America,
+    Cabal
 
     // IMAGENES DE BUZOS PAGINA 
 
@@ -250,5 +256,11 @@ export{
     buzoPortadaGrande,
     camperaVenta,
     ventaExclusivos,
-    ventaAccesorios
+    ventaAccesorios,
+    Master,
+    Visa,
+    MercadoCredito,
+    MercadoPago,
+    America,
+    Cabal
 }

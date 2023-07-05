@@ -12,7 +12,9 @@ import Camperas from "./routes/Camperas"
 import Accesorios from './routes/Accesorios'
 import Inicio from './routes/Inicio'
 import Carrito from "./routes/Carrito"
+import FinalizarCompra from './routes/FinalizarCompra';
 import Error from './routes/Error'
+
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/carrito",
     element: <Carrito/>
+  },
+  {
+    path: "/finalizar",
+    element: <FinalizarCompra/>
   }
 ])
 
@@ -65,7 +71,8 @@ export default App
 // TERMINAR EL RESUMEN DE COMPRA. LISTO
 // FINALIZAR LA COMPRA BOTON. LISTO
 // CALCULAR LOS PRECIOS. LISTO
-//HACERLO RESPONSIVE EL CARRITO
+//HACERLO RESPONSIVE EL CARRITO LISTO
+
 // HACER PAGINA DE COMPRA
 //FORMULARIO DE COMPRA
 //HACER EL MODAL DE FINALIZACION DE COMPRA

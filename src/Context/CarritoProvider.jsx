@@ -9,8 +9,9 @@ const CarritoProvider = ({ children }) => {
   const [producto, setProducto] = useState({});
   const [carrito, setCarrito] = useState([]);
   const [cantidad, setCantidad] = useState(1);
+  const [total, setTotal] = useState(0)
 
-  console.log(carrito)
+  console.log(total)
 
   // FUNCIONES
 
@@ -39,6 +40,7 @@ const CarritoProvider = ({ children }) => {
   const calcularTotal = () => {
     const total = carrito.reduce((accumulator, producto) => {
       const subtotal = calcularSubtotal(producto);
+      setTotal(accumulator + subtotal)
       return accumulator + subtotal;
     }, 0);
 
@@ -82,7 +84,8 @@ const CarritoProvider = ({ children }) => {
         calcularSubtotal,
         handleSumarCantidad,
         handleEliminar,
-        handleRestarCantidad
+        handleRestarCantidad,
+        total
         
       }}
     >

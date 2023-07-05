@@ -73,6 +73,16 @@ body{
   background-size: 100% ;
 }
 
+.desactivarEstilos::-webkit-inner-spin-button,
+.desactivarEstilos::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.desactivarEstilos[type="number"] {
+  -moz-appearance: textfield;
+}
+
 
 
 .swiper {
