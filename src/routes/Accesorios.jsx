@@ -41,7 +41,7 @@ export default function Accesorios() {
                   <p className="text-center text-sm font-bold">Calidad 100%</p>
    
 
-                  <p className="text-center font-bold">{accesorio.precio}</p>
+                  <p className="text-center font-bold">${accesorio.precio}</p>
 
                   <div className="flex justify-center items-center">
                     <button 

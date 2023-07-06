@@ -47,7 +47,7 @@ export default function Camperas() {
                     </div>
                   </div>
 
-                  <p className="text-center font-bold">{campera.precio}</p>
+                  <p className="text-center font-bold">${campera.precio}</p>
 
                   <div className="flex justify-center items-center">
                     <button className="bg-white border text-black hover:text-white hover:bg-black duration-200 p-2 m-3" onClick={() => handleProducto(campera)}>Agregar</button>

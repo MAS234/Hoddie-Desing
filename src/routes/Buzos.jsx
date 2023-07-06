@@ -48,7 +48,7 @@ export default function Buzos() {
                     </div>
                   </div>
 
-                  <p className="text-center font-bold">{buzo.precio}</p>
+                  <p className="text-center font-bold">${buzo.precio}</p>
 
                   <div className="flex justify-center items-center">
                     <button 

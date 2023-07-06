@@ -151,7 +151,7 @@ function FinalizarCompra() {
                 </label>
               </div>
               <div className="flex gap-4 mt-3">
-                <img src={MercadoPago} alt="america" className="w-24 h-10" />
+                <img src={MercadoPago} alt="america" className="w-28 h-10" />
                 <img src={MercadoCredito} alt="visa" className="w-24 h-10" />
               </div>
             </div>

@@ -83,7 +83,7 @@ export default function Exclusivos() {
                   <Icon icon="material-symbols:circle" />
                 </div>
 
-                <p className="font-bold text-xl ">{exclusivo.precio}</p>
+                <p className="font-bold text-xl ">${exclusivo.precio}</p>
               </div>
             </div>
           ))}
