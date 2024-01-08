@@ -1,4 +1,4 @@
-##Hoddie Design - Plataforma de Venta de Ropa Exclusiva
+## Hoddie Design - Plataforma de Venta de Ropa Exclusiva
 
 Hoddie Design es una plataforma de venta de ropa exclusiva desarrollada utilizando tecnologías modernas como React, Tailwind CSS y React Router DOM. El proyecto presenta un diseño completamente original y es totalmente responsive para adaptarse a diferentes dispositivos.
 
